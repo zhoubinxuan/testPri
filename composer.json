@@ -1,0 +1,17 @@
+{
+    "name": "newcar/sendMsg",
+    "description": "发送消息",
+    "keywords": ["RabbitMQ", "EMAIL", "SMS", "WECHAT"],
+    "authors": [
+        { "name": "zhoubin", "email": "zhoubin1@xin.com" }
+    ],
+    "require": {
+        "php": ">=5.5",
+        "ext-amqp": "^1.4.0",
+        "phpmailer/phpmailer": "^5.2 || ^6.1",
+        "guzzlehttp/psr7": "^1.0"
+    },
+    "autoload": {
+        "psr-4": { "SendMsg\\": "/" }
+    }
+}
