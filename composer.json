@@ -1,5 +1,5 @@
 {
-    "name": "newcar/sendMsg",
+    "name": "newcar/sendmsg",
     "description": "发送消息",
     "keywords": ["RabbitMQ", "EMAIL", "SMS", "WECHAT"],
     "authors": [
